@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+}
+
+header{
+    padding: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.dd{
+    margin-bottom: 30px;
+}
+.div1{
+    border: 3px solid black;
+    padding: 20px;
+    background-color: aqua;
+    width: 50%;
+    display: inline-block;
+    transition-duration: 4s;
+}
+.div1:hover{
+    rotate: 36deg;
+    background-color: rgb(175, 110, 24);
+}
+.img1:hover{
+    margin-left: 50px;
+    border-radius: 100%;
+}
+img{
+    max-width: 70%;
+    transition: all 4s ease 500ms ;
+}
+.div2{
+    border: 3px solid black;
+    padding: 20px;
+    background-color: rgb(195, 255, 0);
+    width: 40%;
+    float: right;
+    transition: all 2s;
+}
+.div2:hover{
+    resize:both;
+    width: 41%;
+}
+.img2:hover{
+    scale: 1.1 1.1;
+}
+.div3{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+    padding-right: 300px;
+    transition: all 2s; 
+}
+.div3:hover{
+    transform: skew(20deg,0deg);
+}
+
+.div4{
+    border: 2px solid black;
+    padding: 20px;
+    display: inline-block;
+    transition: all 2s;
+    translate: 40px;
+}
+.div4:hover{
+    translate: 0px ;
+    color: brown;
+}
+
