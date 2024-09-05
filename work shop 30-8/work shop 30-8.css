@@ -1,0 +1,84 @@
+section {
+    margin: 10% 15%;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.D1 {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10%;
+
+    position: relative;
+}
+
+.D2 {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+.addcart {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+img {
+    transition-property: all;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition-duration: 1s;
+}
+
+
+.i1:hover {
+    content: url(./Img_1.png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
+
+.i2:hover {
+    content: url(./Img_Il-Biscotto-Muscovado-e-Cannella_\(600x600\).png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
+
+.i3:hover {
+    content: url(./Img_Il-Biscotto-Gocciolato_\(600x600\).png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
+
+.i4:hover {
+    content: url(./Img_Il-Biscotto-Frollino_\(600x600\).png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
+
+.i5:hover {
+    content: url(./Img_Il-Biscotto-Arancia-e-Nocciola_\(600x600\).png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
+
+.i6:hover {
+    content: url(./Img_Il-Biscotto-al-Cioccolato_\(600x600\).png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
+
+.i7:hover {
+    content: url(./Img_Il-Biscotto-al-Limone_\(600x600\).png);
+    transform: translateY(-30px);
+    max-width: 100%;
+}
