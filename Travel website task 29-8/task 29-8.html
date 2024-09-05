@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="task 29-8.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">TravelMate</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="destinations.html" target="_blank">Destinations</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="login0.html" target="_blank">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to TravelMate</h1>
+            <p>Your gateway to the world's best destinations!</p>
+            <button>Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <a href="login.html">
+                    <img src="https://cdn.pixabay.com/photo/2020/11/22/19/19/louvre-5767708_640.jpg" alt="Paris">
+                </a>
+                <h3>Paris, France</h3>
+            </div>
+            <div class="destination-card">
+                <a href="login.html">
+                    <img src="https://cdn.pixabay.com/photo/2017/11/24/21/49/bali-2975787_640.jpg" alt="Bali">
+                </a>
+                <h3>Bali, Indonesia</h3>
+            </div>
+            <div class="destination-card">
+                <a href="login.html">
+                    <img src="https://cdn.pixabay.com/photo/2017/09/29/23/54/america-2800896_640.jpg" alt="New York">
+                </a>
+                <h3>New York, USA</h3>
+            </div>
+            <div class="destination-card">
+                <a href="login.html">
+                    <img src="https://cdn.pixabay.com/photo/2019/04/07/07/52/taj-mahal-4109110_640.jpg" alt="Taj Mahal">
+                </a>
+                <h3>Taj Mahal, India</h3>
+            </div>
+            <div class="destination-card">
+                <a href="login.html">
+                    <img src="https://cdn.pixabay.com/photo/2018/01/22/12/19/travel-3098815_640.jpg"alt="Pyramids">
+                </a>
+                <h3>Pyramids, Egypt</h3>
+            </div>
+            <div class="destination-card">
+                <a href="login.html">
+                    <img src="https://cdn.pixabay.com/photo/2019/04/20/11/39/japan-4141578_640.jpg" alt="Tokyo">
+                </a>
+                <h3>Tokyo, Japan</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Booking Section -->
+    <section id="booking">
+        <h2>Book Your Trip</h2>
+        <form>
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination">
+            
+            <label for="date">Travel Date:</label>
+            <input type="date" id="date" name="date">
+            
+            <label for="guests">Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="10">
+            
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs">
+        <h2>Travel Blogs & Guides</h2>
+        <div class="blog-grid">
+            <article class="blog-post">
+                <h3>Top 10 Beaches in the World</h3>
+                <p>Discover the most stunning beaches you must visit...</p>
+            </article>
+            <article class="blog-post">
+                <h3>How to Travel on a Budget</h3>
+                <p>Tips and tricks for affordable travel...</p>
+            </article>
+            <article class="blog-post">
+                <h3>Best Time to Visit Europe</h3>
+                <p>Know the best seasons for exploring Europe...</p>
+            </article>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 TravelMate. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
