@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="task 28-8.css">
+    <style>
+        @media screen and (max-width:768px) {
+            .div1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #mywork {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .p {
+                width: 200px;
+                background-color: antiquewhite;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 15px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            section {
+                margin: 1% 5%;
+            }
+
+            #div2>span {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="div1">
+        <a href="#">Home</a>
+        <a href="#div2">About</a>
+        <a href="#myskills">Skills</a>
+        <a href="#mywork">Portfolio</a>
+        <a href="#" target="">cantact</a>
+    </header>
+    <section>
+
+        <div id="portfolio" class="div">
+            <p>Welcome to My Portfolio</p>
+        </div>
+        <div id="div2" class="div">
+            <h2>About Me</h2>
+            <a href=""><img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Prime_Minister%2C_Shri_Narendra_Modi_meeting_Mr._Elon_Musk_in_New_York%2C_USA_on_June_20%2C_2023_%282%29_%28cropped%29.jpg/330px-The_Prime_Minister%2C_Shri_Narendra_Modi_meeting_Mr._Elon_Musk_in_New_York%2C_USA_on_June_20%2C_2023_%282%29_%28cropped%29.jpg"
+                    alt=""></a>
+            <span>Hello! I'm a developer with a passion for creating beautifull and functional websites.</span>
+        </div>
+
+        <div id="myskills" class="div">
+            <h2>My Skills</h2>
+
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Skills</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>Css</td>
+                        <td>Advance</td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="div" id="mywork">
+            <h2>My Work</h2>
+            <div class="p">
+                <p><img src="" alt="project1"></p>
+                <h3>Project One</h3>
+                <p>Description of Project One</p>
+            </div>
+            <div class="p">
+                <p><img src="" alt="project2"></p>
+                <h3>Project Two</h3>
+                <p>Description of Project Two</p>
+            </div>
+            <div class="p">
+                <p><img src="" alt="project3"></p>
+                <h3>Project Three</h3>
+                <p>Description of Project Three</p>
+            </div>
+        </div>
+
+        <div class="div" id="contactme">
+            <h2>Contact Me</h2>
+            <form action=""><br>
+                <label for="name">Name:</label><br>
+                <input type="text"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id=""><br><br>
+                <label for="subject">Subject:</label><br>
+                <textarea rows="4" cols="50" name="comment" form=""></textarea><br><br>
+                <label for="message">Message</label><br>
+                <input type="text" name="" id=""><br>
+            </form>
+        </div>
+    </section>
+    <footer id="footer">
+        @2024 My Portfolio
+    </footer>
+</body>
+
+</html>
